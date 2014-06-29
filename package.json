@@ -1,0 +1,31 @@
+{
+  "name": "koa-workshop",
+  "description": "Koa learning workshop",
+  "version": "0.0.0",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "repository": "koajs/workshop",
+  "license": "MIT",
+  "dependencies": {
+    "co": "3",
+    "co-body": "0",
+
+    "mz": "1",
+    "jade": "1",
+    "escape-html": "1",
+
+    "koa": "0",
+    "koa-csrf": "2",
+    "koa-session": "2",
+
+    "supertest": "0",
+    "mocha": "1"
+  },
+  "scripts": {
+    "test": "mocha --harmony-generators --reporter spec --bail */test.js"
+  }
+}
