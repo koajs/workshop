@@ -16,5 +16,5 @@ Use the `this.request.accepts()`-type methods.
 
 Using `this.request.acceptsEncodings()`,
 either send `hello world` gzipped or not gzipped (identity).
-For the purposes of this test, always set the `Content-Encoding` heaeder,
+For the purposes of this test, always set the `Content-Encoding` header,
 even if it's just `identity`.
