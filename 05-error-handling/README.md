@@ -21,7 +21,7 @@ app.use(function* () {
 ```
 
 Each Koa `app` is an [EventEmitter](http://nodejs.org/api/events.html#events_class_events_eventemitter) instance.
-All errors uncaught by any middleware to `app.on('error', function (err, context) {})`.
+All errors uncaught by any middleware are caught by `app.on('error', function (err, context) {})`.
 This is useful for logging.
 However, if you create your own error handler (i.e. catching it),
 you will have to manually emit these events yourself.
