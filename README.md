@@ -23,7 +23,6 @@ You should read these resources before and after doing this workshop:
 - [koajs](http://koajs.com) - the official web page for koa
 - [koa examples](https://github.com/koajs/examples) - a lot of examples for koa
 - http://www.jongleberry.com/koa.html - some blog posts on koa
-- [Asynchronous Generators as Middleware](http://cdn.rawgit.com/jonathanong/koajs/master/index.html) - a high level look into Koa
 
 ## Instructions
 
