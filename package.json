@@ -11,19 +11,16 @@
   "repository": "koajs/workshop",
   "license": "MIT",
   "dependencies": {
-    "co": "3",
-    "co-body": "0",
-
-    "mz": "1",
+    "co": "4.6.0",
+    "co-body": "4.0.0",
+    "mz": "2.1.0",
     "jade": "1",
     "escape-html": "1",
-
-    "koa": "0",
+    "koa": "1.1.2",
     "koa-csrf": "2",
-    "koa-session": "2",
-
-    "supertest": "0",
-    "mocha": "1"
+    "koa-session": "3.3.1",
+    "supertest": "1.1.0",
+    "mocha": "2.3.4"
   },
   "scripts": {
     "test": "mocha --harmony-generators --reporter spec --bail */test.js"
