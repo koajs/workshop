@@ -13,15 +13,12 @@
   "dependencies": {
     "co": "3",
     "co-body": "0",
-
-    "mz": "1",
+    "mz": "2.2.0",
     "jade": "1",
     "escape-html": "1",
-
     "koa": "0",
     "koa-csrf": "2",
     "koa-session": "2",
-
     "supertest": "0",
     "mocha": "1"
   },
