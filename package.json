@@ -13,17 +13,14 @@
   "dependencies": {
     "co": "3",
     "co-body": "0",
-
     "mz": "1",
     "jade": "1",
     "escape-html": "1",
-
     "koa": "0",
     "koa-csrf": "2",
     "koa-session": "2",
-
     "supertest": "0",
-    "mocha": "1"
+    "mocha": "3.5.0"
   },
   "scripts": {
     "test": "mocha --harmony-generators --reporter spec --bail */test.js"
