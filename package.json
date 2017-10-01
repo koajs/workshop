@@ -13,19 +13,20 @@
   "dependencies": {
     "co": "3",
     "co-body": "0",
-
     "mz": "1",
     "jade": "1",
     "escape-html": "1",
-
-    "koa": "0",
+    "koa": "2.2.0",
     "koa-csrf": "2",
     "koa-session": "2",
-
-    "supertest": "0",
-    "mocha": "1"
+    "supertest": "2.0.0",
+    "mocha": "1",
+    "snyk": "^1.41.1"
   },
   "scripts": {
-    "test": "mocha --harmony-generators --reporter spec --bail */test.js"
-  }
+    "test": "mocha --harmony-generators --reporter spec --bail */test.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
