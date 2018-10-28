@@ -16,7 +16,7 @@
     "mz": "1",
     "jade": "1",
     "escape-html": "1",
-    "koa": "0",
+    "koa": "1.4.1",
     "koa-csrf": "2",
     "koa-session": "2",
     "supertest": "3.0.0",
