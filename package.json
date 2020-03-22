@@ -20,7 +20,7 @@
     "koa-csrf": "2",
     "koa-session": "2",
     "supertest": "3.0.0",
-    "mocha": "4.0.0"
+    "mocha": "7.1.1"
   },
   "scripts": {
     "test": "mocha --harmony-generators --reporter spec --bail */test.js"
