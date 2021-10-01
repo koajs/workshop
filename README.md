@@ -1,4 +1,4 @@
-# koa
+# koa.
 
 In this workshop, you will learn the basics of [koa](https://github.com/koajs/koa),
 [Express'](https://github.com/visionmedia/express) spiritual successor.
@@ -7,7 +7,7 @@ and will be continuously maintained.
 If you have any questions or have suggestions for additional exercises,
 please let us know!
 
-## Resources
+## Resources.
 
 This workshop assumes you've had experience with:
 
@@ -61,7 +61,7 @@ mocha --harmony-generators test.js
 If you get an error message like `SyntaxError: Unexpected token *`,
 this means you didn't run the the process with `--harmony-generators`.
 
-## Learning more than just Koa
+## Learning more than just Koa.
 
 Although writing tests is not part of this workshop,
 you should still learn how they work.
@@ -80,6 +80,6 @@ git commit -a -m "i finished training 1!"
 
 Many small commits is good practice!
 
-## Contact
+## Contact.
 
 * [Jonathan Ong](https://github.com/jonathanong) - [@jongleberry](https://twitter.com/jongleberry)
