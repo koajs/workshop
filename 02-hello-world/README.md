@@ -19,7 +19,7 @@ res.end('hello world');
 In Express, there is a shortcut:
 
 ```js
-res.send('hello world');
+res.send('Hello World');
 ```
 
 However, in Koa, we use getter/setter:
