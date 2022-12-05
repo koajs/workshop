@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "co": "3",
-    "co-body": "0",
+    "co-body": "5.0.0",
     "mz": "1",
     "jade": "1",
     "escape-html": "1",
